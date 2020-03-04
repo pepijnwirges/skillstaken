@@ -1,0 +1,20 @@
+p {
+    text-align: center;
+}
+
+A {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: lightgrey;
+    box-shadow: 5px 5px 5px;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Spartan';
+    background-image: url(lucht.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

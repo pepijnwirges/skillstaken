@@ -1,0 +1,25 @@
+.minder {
+    font-size: 40PX;
+}
+
+
+.groot {
+    font-size: 300px;
+}
+
+
+@keyframes draaien {
+    from {}
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 700px) {
+    .groot {}
+
+    .minder {
+        font-size: 30px;
+    }
+}

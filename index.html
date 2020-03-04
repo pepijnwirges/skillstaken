@@ -7,34 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Pepijn Wirges">
     <link rel="stylesheet" href="stijl.css">
+    <link rel="stylesheet" href="bootstrap-grid.css">
     <link rel="shortcut icon" href="/webdesign_basisstructuur/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div id="container">
+    <div id="container" class="container">
         <header>
-            <h1>Welkom op mijn webruimte!</h1>
-            <nav>
-                <h2>Mijn projecten</h2>
-                <ul>
-                    <li>Webdesign essentials
-                        <ul>
-                            <li><a href="webdesign/skills2/r0793156skills2.html">Skillstaak 2</a></li>
-                            <li><a href="webdesign/skills3/r0793156skills3.html">Skillstaak 3</a></li>
-                        </ul>
-                    </li>
-                    <li>Webdesign met HTML5
-                        <ul>
-                            <li><a href="#">Uitdaging 1</a></li>
-                            <li><a href="#">Uitdaging 2</a></li>
-                        </ul>
-                    </li>
+            <div class="row">
+
+                <img class="col-md-12 d-md-block weg" src="foto_index3.jpg" alt="foto van mij">
+            </div>
+            <nav class="d-none d-lg-block">
+                <ul class="d-flex">
+                    <li><a href="webdesign/skills2/r0793156skills2.html">Skillstaak 2</a></li>
+                    <li><a href="webdesign/skills3/r0793156skills3.html">Skillstaak 3</a></li>
+                    <li><a href="#">Uitdaging 1</a></li>
+                    <li><a href="#">Uitdaging 2</a></li>
                 </ul>
+
             </nav>
+            <nav>
+                <ul class="d-flex d-lg-none d-xl-none">
+                    <li><a href="webdesign/skills2/r0793156skills2.html">Skillstaak</a></li>
+                    <li><a href="webdesign/skills3/r0793156skills3.html">Skillstaak</a></li>
+                    <li><a href="#">Uitdaging</a></li>
+                    <li><a href="#">Uitdaging</a></li>
+                </ul>
+
+            </nav>
+
+            <h1>Welkom op mijn webruimte!</h1>
         </header>
+        <div class="row">
+            <img class="col-lg-6 kleiner rond d-none d-sm-none d-md-none d-lg-block " src="foo7.jpg" alt="nog een foto van mij">
+            <div class="col-lg-5 col-md-12 margin ml">
+                <div class="lijn">
+                    <h2 class="m-5">Wie ben ik?</h2>
+                    <p>Ik ben Pepijn Wirges, op de valreep als milleniumbaby geboren, maar ik sta bij de eersten aan de meet wanneer mijn talenten geprikkeld worden! Na het afbouwen van mijn skatecarrière heb ik tijd en zin gekregen om mij te focussen op mijn opleiding en mijn liefde voor de scouts. Iedere zaterdag vind je mij in korte broek in de moddder of op een speelplein. In groep spelen en feesten geeft me energie, ik merk dat ook werken en studeren in groepen bij mij past. Ik wil van kleins af aan al uitvinder worden! </p>
+                </div>
+
+            </div>
+        </div>
+        <hr class="hr">
         <article>
-            <h2>Wie ben ik?</h2>
-            <p>Ik ben Pepijn Wirges, student bij de It Factory van de Thomas More Geel. Buiten het studentenleven breng ik veel tijd door op de scouts. Ik heb al 12 actieve scoutjaren achter de rug waarvan 3 jaar leiding. Als ik niet op de scouts zit ben ik aaan het skaten. Tot 3 jaar geleden deed ik mee aan competities met het skaten, maar na meerderen kneuzingen en breuken ben ik hier maar me gestopt. </p>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <p class="col-lg-5 mr-1 mar"> Ik hebn een stevig nest, waar ik alle kansen en steun krijg om volledig voor mijn talenten te gaan. Mijn oudere broer Stoffel studeert aan de UHasselt, mijn vader is kapitein op zijn eigen schip en mijn moeder voorziet Hotel Mama van alle extra - legale voordelen. Van mijn vader kreeg ik de ambitie mee om het te maken, om ver te geraken in het leven. Van mijn moeder heb ik ook veel gekregen, empathie en zorgzaamheid, jammer genoeg niet haar gevoel voor orde en netheid. (Al leer ik steeds bij op dat vlak!)</p>
+                <p class="col-lg-5 ml-1 mar">Tijdens de derde graad van het middelbaar onderwijs, mocht ik als pionierstudent meewerken aan het ontwikkelen en verbeteren van de allereerste studierichting binnen het "duaal leren". Dit was een hele uitdaging waardoor ik leerde werken en doorzetten, presenteren en communiceren. Op dit moment vind ik in deze studierichting alles wat ik nodig heb. Ik kan creëren, mijn dyslectische aard wat omzeilen, mijn brein wordt voldoende uitgedaagd. Ik voel me een uitvinder-in-opleiding en dat ligt me helemaal! </p>
+                <div class="col-lg-1 mar"></div>
+            </div>
+            <hr class="hr">
+
         </article>
         <footer>
             <a href="http://www.thomasmore.be/">Thomas More</a> &copy; IT Factory = <a href="https://www.facebook.com/ToegepasteInformatica.ThomasMoreBE/">Toegepaste informatica</a> + <a href="https://www.facebook.com/ElektronicaICT.ThomasMoreBE/">Elektronica-ICT</a>
@@ -42,6 +72,4 @@
         </footer>
     </div>
 
-</body>
-
-</html>
+</body></html>
